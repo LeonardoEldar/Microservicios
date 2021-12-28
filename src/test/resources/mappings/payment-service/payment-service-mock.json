@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/payment/authorize",
+    "bodyPatterns" : [ {
+      "equalToJson": "{\"orderId\":\"5\",\"currency\":\"USD\",\"accountId\":\"1\",\"amount\":1000.0,\"payment\":{\"cardNumber\":\"1234 5678 9123 9876\",\"nameOnCard\":\"Naruto Uzumaki\",\"cardCode\":\"132\",\"expirationMonth\":\"03\",\"expirationYear\":\"2022\",\"method\":\"VISA\"}}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/payment-service/payment_service_body_01.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

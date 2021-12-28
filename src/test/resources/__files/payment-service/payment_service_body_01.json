@@ -1,0 +1,8 @@
+{
+  "accountId": "1",
+  "orderId": "1",
+  "transactionAuthCode": "AUT_123",
+  "transactionDate": "2021-09-30T18:38:48.491Z",
+  "transactionId": "12313213",
+  "transactionStatus": "APPROVED"
+}

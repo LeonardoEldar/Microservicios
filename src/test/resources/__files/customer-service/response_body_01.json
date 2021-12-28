@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "address": {
+    "id": 1,
+    "street": "3142 McDonald Street",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "USA",
+    "zipCode": "11201"
+  },
+  "customer": {
+    "id": 1,
+    "firstName": "Parker",
+    "lastName": "Peter",
+    "email": "peterparker@gmail.com"
+  },
+  "creditCard": {
+    "id": 1,
+    "nameOnCard": "Peter Parker",
+    "number": "4565 9018 2124 2422",
+    "type": "VISA",
+    "expirationMonth": "07",
+    "expirationYear": "2024",
+    "ccv": "212"
+  },
+  "status": "ACTIVE"
+}
